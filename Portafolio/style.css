@@ -1,0 +1,91 @@
+:root {
+    --uide-blue: #870a42;
+    --uide-gold: #eaaa00;
+    --uide-dark: #000000;
+    --white: #ffffff;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    background-color: #f0f2f5;
+    color: var(--uide-dark);
+}
+
+header {
+    background: linear-gradient(135deg, var(--uide-blue) 0%, #870a42 100%);
+    color: var(--white);
+    padding: 60px 20px;
+    text-align: center;
+    border-bottom: 6px solid var(--uide-gold);
+}
+
+header h1 { font-family: 'Montserrat', sans-serif; font-size: 3em; margin: 0; }
+
+.uide-badge {
+    display: inline-block;
+    background-color: var(--uide-gold);
+    color: var(--uide-blue);
+    padding: 5px 20px;
+    border-radius: 50px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.header-links { margin-top: 20px; }
+
+.btn, .btn-alt {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn { background: var(--uide-blue); color: white; }
+.btn-alt { background: var(--uide-gold); color: var(--uide-blue); }
+.btn-alt:hover { background: white; }
+
+.container { max-width: 900px; margin: -30px auto 40px; padding: 0 20px; }
+
+.intro-card, .project-card {
+    background: var(--white);
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.intro-card { padding: 25px; text-align: center; }
+
+.project-header {
+    padding: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    background: #fafafa;
+    border-left: 6px solid var(--uide-blue);
+}
+
+.project-content {
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-out;
+}
+
+.project-content.active { padding: 20px; max-height: 1000px; border-top: 1px solid #eee; }
+
+.tech-pill {
+    display: inline-block;
+    background: #eaaa00;
+    padding: 4px 10px;
+    border-radius: 15px;
+    font-size: 0.8em;
+    margin: 5px 5px 5px 0;
+}
+
+footer { background: var(--uide-dark); color: white; text-align: center; padding: 40px; }
+.social-footer a { color: var(--uide-gold); text-decoration: none; font-weight: bold; }
+.license { font-size: 0.8em; color: #888; margin-top: 20px; }
