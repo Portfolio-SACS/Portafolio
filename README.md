@@ -28,13 +28,3 @@ El portafolio incluye acceso directo y descripción de los siguientes repositori
 * **Frontend:** HTML5, CSS3 (Custom Properties), JavaScript (ES6+).
 * **Diseño:** Estética institucional UIDE con enfoque UX/UI Responsivo.
 * **Despliegue:** GitHub Pages para el alojamiento del portafolio.
-
----
-
-## 🚀 Instalación y Visualización Local
-
-Si deseas ejecutar este portafolio en tu máquina local:
-
-1. Clona este repositorio:
-   ```bash
-   git clone [https://github.com/Alejotxw/Portafolio.git](https://github.com/Alejotxw/Portafolio.git)
