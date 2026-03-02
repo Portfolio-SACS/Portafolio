@@ -21,3 +21,6 @@ El portafolio incluye acceso directo y descripción de los siguientes repositori
 1.  **[Conqueror](https://github.com/Alejotxw/conqueror.git)**: Desarrollo de lógica de juegos y gestión estratégica con C# y Unity.
 2.  **[UIDE Trivia NLP](https://github.com/Alejotxw/UIDEtriviaNPL.git)**: Aplicación de Procesamiento de Lenguaje Natural (IA) para entornos educativos.
 3.  **[Emprende UIDE Móvil](https://github.com/Alejotxw/emprendeUIDEmovil.git)**: Solución móvil para el ecosistema de emprendimiento universitario.
+
+## 🖥️ Pagina Subida
+https://portafolio-sebastian-chocho.vercel.app/
